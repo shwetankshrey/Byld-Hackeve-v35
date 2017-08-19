@@ -1,0 +1,14 @@
+<html>
+<body>
+<h1>My name is {{ name }}!</h1>
+{% if name == "admin" %}
+<h2>This is a top secret military bullshit.</h2>
+<h6>Krishna hii Krishh hai</h6>
+<h3>Your friends are:</h3>
+<ul>
+{% for i in somelist %}
+<li>{{ i }}</li>
+{% endfor %}
+{% endif %}
+</body>
+</html>
